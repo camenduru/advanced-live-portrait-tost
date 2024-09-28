@@ -32,56 +32,3188 @@
       "description": "rotate_pitch",
       "minimum": -20,
       "maximum": 20,
-      "widget": "range"
+      "widget": "select",
+      "oneOf": [
+        {
+          "description": "-20.0",
+          "enum": [
+            -20
+          ]
+        },
+        {
+          "description": "-19.5",
+          "enum": [
+            -19.5
+          ]
+        },
+        {
+          "description": "-19.0",
+          "enum": [
+            -19
+          ]
+        },
+        {
+          "description": "-18.5",
+          "enum": [
+            -18.5
+          ]
+        },
+        {
+          "description": "-18.0",
+          "enum": [
+            -18
+          ]
+        },
+        {
+          "description": "-17.5",
+          "enum": [
+            -17.5
+          ]
+        },
+        {
+          "description": "-17.0",
+          "enum": [
+            -17
+          ]
+        },
+        {
+          "description": "-16.5",
+          "enum": [
+            -16.5
+          ]
+        },
+        {
+          "description": "-16.0",
+          "enum": [
+            -16
+          ]
+        },
+        {
+          "description": "-15.5",
+          "enum": [
+            -15.5
+          ]
+        },
+        {
+          "description": "-15.0",
+          "enum": [
+            -15
+          ]
+        },
+        {
+          "description": "-14.5",
+          "enum": [
+            -14.5
+          ]
+        },
+        {
+          "description": "-14.0",
+          "enum": [
+            -14
+          ]
+        },
+        {
+          "description": "-13.5",
+          "enum": [
+            -13.5
+          ]
+        },
+        {
+          "description": "-13.0",
+          "enum": [
+            -13
+          ]
+        },
+        {
+          "description": "-12.5",
+          "enum": [
+            -12.5
+          ]
+        },
+        {
+          "description": "-12.0",
+          "enum": [
+            -12
+          ]
+        },
+        {
+          "description": "-11.5",
+          "enum": [
+            -11.5
+          ]
+        },
+        {
+          "description": "-11.0",
+          "enum": [
+            -11
+          ]
+        },
+        {
+          "description": "-10.5",
+          "enum": [
+            -10.5
+          ]
+        },
+        {
+          "description": "-10.0",
+          "enum": [
+            -10
+          ]
+        },
+        {
+          "description": "-9.5",
+          "enum": [
+            -9.5
+          ]
+        },
+        {
+          "description": "-9.0",
+          "enum": [
+            -9
+          ]
+        },
+        {
+          "description": "-8.5",
+          "enum": [
+            -8.5
+          ]
+        },
+        {
+          "description": "-8.0",
+          "enum": [
+            -8
+          ]
+        },
+        {
+          "description": "-7.5",
+          "enum": [
+            -7.5
+          ]
+        },
+        {
+          "description": "-7.0",
+          "enum": [
+            -7
+          ]
+        },
+        {
+          "description": "-6.5",
+          "enum": [
+            -6.5
+          ]
+        },
+        {
+          "description": "-6.0",
+          "enum": [
+            -6
+          ]
+        },
+        {
+          "description": "-5.5",
+          "enum": [
+            -5.5
+          ]
+        },
+        {
+          "description": "-5.0",
+          "enum": [
+            -5
+          ]
+        },
+        {
+          "description": "-4.5",
+          "enum": [
+            -4.5
+          ]
+        },
+        {
+          "description": "-4.0",
+          "enum": [
+            -4
+          ]
+        },
+        {
+          "description": "-3.5",
+          "enum": [
+            -3.5
+          ]
+        },
+        {
+          "description": "-3.0",
+          "enum": [
+            -3
+          ]
+        },
+        {
+          "description": "-2.5",
+          "enum": [
+            -2.5
+          ]
+        },
+        {
+          "description": "-2.0",
+          "enum": [
+            -2
+          ]
+        },
+        {
+          "description": "-1.5",
+          "enum": [
+            -1.5
+          ]
+        },
+        {
+          "description": "-1.0",
+          "enum": [
+            -1
+          ]
+        },
+        {
+          "description": "-0.5",
+          "enum": [
+            -0.5
+          ]
+        },
+        {
+          "description": "0.0",
+          "enum": [
+            0
+          ]
+        },
+        {
+          "description": "0.5",
+          "enum": [
+            0.5
+          ]
+        },
+        {
+          "description": "1.0",
+          "enum": [
+            1
+          ]
+        },
+        {
+          "description": "1.5",
+          "enum": [
+            1.5
+          ]
+        },
+        {
+          "description": "2.0",
+          "enum": [
+            2
+          ]
+        },
+        {
+          "description": "2.5",
+          "enum": [
+            2.5
+          ]
+        },
+        {
+          "description": "3.0",
+          "enum": [
+            3
+          ]
+        },
+        {
+          "description": "3.5",
+          "enum": [
+            3.5
+          ]
+        },
+        {
+          "description": "4.0",
+          "enum": [
+            4
+          ]
+        },
+        {
+          "description": "4.5",
+          "enum": [
+            4.5
+          ]
+        },
+        {
+          "description": "5.0",
+          "enum": [
+            5
+          ]
+        },
+        {
+          "description": "5.5",
+          "enum": [
+            5.5
+          ]
+        },
+        {
+          "description": "6.0",
+          "enum": [
+            6
+          ]
+        },
+        {
+          "description": "6.5",
+          "enum": [
+            6.5
+          ]
+        },
+        {
+          "description": "7.0",
+          "enum": [
+            7
+          ]
+        },
+        {
+          "description": "7.5",
+          "enum": [
+            7.5
+          ]
+        },
+        {
+          "description": "8.0",
+          "enum": [
+            8
+          ]
+        },
+        {
+          "description": "8.5",
+          "enum": [
+            8.5
+          ]
+        },
+        {
+          "description": "9.0",
+          "enum": [
+            9
+          ]
+        },
+        {
+          "description": "9.5",
+          "enum": [
+            9.5
+          ]
+        },
+        {
+          "description": "10.0",
+          "enum": [
+            10
+          ]
+        },
+        {
+          "description": "10.5",
+          "enum": [
+            10.5
+          ]
+        },
+        {
+          "description": "11.0",
+          "enum": [
+            11
+          ]
+        },
+        {
+          "description": "11.5",
+          "enum": [
+            11.5
+          ]
+        },
+        {
+          "description": "12.0",
+          "enum": [
+            12
+          ]
+        },
+        {
+          "description": "12.5",
+          "enum": [
+            12.5
+          ]
+        },
+        {
+          "description": "13.0",
+          "enum": [
+            13
+          ]
+        },
+        {
+          "description": "13.5",
+          "enum": [
+            13.5
+          ]
+        },
+        {
+          "description": "14.0",
+          "enum": [
+            14
+          ]
+        },
+        {
+          "description": "14.5",
+          "enum": [
+            14.5
+          ]
+        },
+        {
+          "description": "15.0",
+          "enum": [
+            15
+          ]
+        },
+        {
+          "description": "15.5",
+          "enum": [
+            15.5
+          ]
+        },
+        {
+          "description": "16.0",
+          "enum": [
+            16
+          ]
+        },
+        {
+          "description": "16.5",
+          "enum": [
+            16.5
+          ]
+        },
+        {
+          "description": "17.0",
+          "enum": [
+            17
+          ]
+        },
+        {
+          "description": "17.5",
+          "enum": [
+            17.5
+          ]
+        },
+        {
+          "description": "18.0",
+          "enum": [
+            18
+          ]
+        },
+        {
+          "description": "18.5",
+          "enum": [
+            18.5
+          ]
+        },
+        {
+          "description": "19.0",
+          "enum": [
+            19
+          ]
+        },
+        {
+          "description": "19.5",
+          "enum": [
+            19.5
+          ]
+        },
+        {
+          "description": "20.0",
+          "enum": [
+            20
+          ]
+        }
+      ],
+      "default": 0
     },
     "rotate_yaw": {
       "type": "number",
       "description": "rotate_yaw",
       "minimum": -20,
       "maximum": 20,
-      "widget": "range"
+      "widget": "select",
+      "oneOf": [
+        {
+          "description": "-20.0",
+          "enum": [
+            -20
+          ]
+        },
+        {
+          "description": "-19.5",
+          "enum": [
+            -19.5
+          ]
+        },
+        {
+          "description": "-19.0",
+          "enum": [
+            -19
+          ]
+        },
+        {
+          "description": "-18.5",
+          "enum": [
+            -18.5
+          ]
+        },
+        {
+          "description": "-18.0",
+          "enum": [
+            -18
+          ]
+        },
+        {
+          "description": "-17.5",
+          "enum": [
+            -17.5
+          ]
+        },
+        {
+          "description": "-17.0",
+          "enum": [
+            -17
+          ]
+        },
+        {
+          "description": "-16.5",
+          "enum": [
+            -16.5
+          ]
+        },
+        {
+          "description": "-16.0",
+          "enum": [
+            -16
+          ]
+        },
+        {
+          "description": "-15.5",
+          "enum": [
+            -15.5
+          ]
+        },
+        {
+          "description": "-15.0",
+          "enum": [
+            -15
+          ]
+        },
+        {
+          "description": "-14.5",
+          "enum": [
+            -14.5
+          ]
+        },
+        {
+          "description": "-14.0",
+          "enum": [
+            -14
+          ]
+        },
+        {
+          "description": "-13.5",
+          "enum": [
+            -13.5
+          ]
+        },
+        {
+          "description": "-13.0",
+          "enum": [
+            -13
+          ]
+        },
+        {
+          "description": "-12.5",
+          "enum": [
+            -12.5
+          ]
+        },
+        {
+          "description": "-12.0",
+          "enum": [
+            -12
+          ]
+        },
+        {
+          "description": "-11.5",
+          "enum": [
+            -11.5
+          ]
+        },
+        {
+          "description": "-11.0",
+          "enum": [
+            -11
+          ]
+        },
+        {
+          "description": "-10.5",
+          "enum": [
+            -10.5
+          ]
+        },
+        {
+          "description": "-10.0",
+          "enum": [
+            -10
+          ]
+        },
+        {
+          "description": "-9.5",
+          "enum": [
+            -9.5
+          ]
+        },
+        {
+          "description": "-9.0",
+          "enum": [
+            -9
+          ]
+        },
+        {
+          "description": "-8.5",
+          "enum": [
+            -8.5
+          ]
+        },
+        {
+          "description": "-8.0",
+          "enum": [
+            -8
+          ]
+        },
+        {
+          "description": "-7.5",
+          "enum": [
+            -7.5
+          ]
+        },
+        {
+          "description": "-7.0",
+          "enum": [
+            -7
+          ]
+        },
+        {
+          "description": "-6.5",
+          "enum": [
+            -6.5
+          ]
+        },
+        {
+          "description": "-6.0",
+          "enum": [
+            -6
+          ]
+        },
+        {
+          "description": "-5.5",
+          "enum": [
+            -5.5
+          ]
+        },
+        {
+          "description": "-5.0",
+          "enum": [
+            -5
+          ]
+        },
+        {
+          "description": "-4.5",
+          "enum": [
+            -4.5
+          ]
+        },
+        {
+          "description": "-4.0",
+          "enum": [
+            -4
+          ]
+        },
+        {
+          "description": "-3.5",
+          "enum": [
+            -3.5
+          ]
+        },
+        {
+          "description": "-3.0",
+          "enum": [
+            -3
+          ]
+        },
+        {
+          "description": "-2.5",
+          "enum": [
+            -2.5
+          ]
+        },
+        {
+          "description": "-2.0",
+          "enum": [
+            -2
+          ]
+        },
+        {
+          "description": "-1.5",
+          "enum": [
+            -1.5
+          ]
+        },
+        {
+          "description": "-1.0",
+          "enum": [
+            -1
+          ]
+        },
+        {
+          "description": "-0.5",
+          "enum": [
+            -0.5
+          ]
+        },
+        {
+          "description": "0.0",
+          "enum": [
+            0
+          ]
+        },
+        {
+          "description": "0.5",
+          "enum": [
+            0.5
+          ]
+        },
+        {
+          "description": "1.0",
+          "enum": [
+            1
+          ]
+        },
+        {
+          "description": "1.5",
+          "enum": [
+            1.5
+          ]
+        },
+        {
+          "description": "2.0",
+          "enum": [
+            2
+          ]
+        },
+        {
+          "description": "2.5",
+          "enum": [
+            2.5
+          ]
+        },
+        {
+          "description": "3.0",
+          "enum": [
+            3
+          ]
+        },
+        {
+          "description": "3.5",
+          "enum": [
+            3.5
+          ]
+        },
+        {
+          "description": "4.0",
+          "enum": [
+            4
+          ]
+        },
+        {
+          "description": "4.5",
+          "enum": [
+            4.5
+          ]
+        },
+        {
+          "description": "5.0",
+          "enum": [
+            5
+          ]
+        },
+        {
+          "description": "5.5",
+          "enum": [
+            5.5
+          ]
+        },
+        {
+          "description": "6.0",
+          "enum": [
+            6
+          ]
+        },
+        {
+          "description": "6.5",
+          "enum": [
+            6.5
+          ]
+        },
+        {
+          "description": "7.0",
+          "enum": [
+            7
+          ]
+        },
+        {
+          "description": "7.5",
+          "enum": [
+            7.5
+          ]
+        },
+        {
+          "description": "8.0",
+          "enum": [
+            8
+          ]
+        },
+        {
+          "description": "8.5",
+          "enum": [
+            8.5
+          ]
+        },
+        {
+          "description": "9.0",
+          "enum": [
+            9
+          ]
+        },
+        {
+          "description": "9.5",
+          "enum": [
+            9.5
+          ]
+        },
+        {
+          "description": "10.0",
+          "enum": [
+            10
+          ]
+        },
+        {
+          "description": "10.5",
+          "enum": [
+            10.5
+          ]
+        },
+        {
+          "description": "11.0",
+          "enum": [
+            11
+          ]
+        },
+        {
+          "description": "11.5",
+          "enum": [
+            11.5
+          ]
+        },
+        {
+          "description": "12.0",
+          "enum": [
+            12
+          ]
+        },
+        {
+          "description": "12.5",
+          "enum": [
+            12.5
+          ]
+        },
+        {
+          "description": "13.0",
+          "enum": [
+            13
+          ]
+        },
+        {
+          "description": "13.5",
+          "enum": [
+            13.5
+          ]
+        },
+        {
+          "description": "14.0",
+          "enum": [
+            14
+          ]
+        },
+        {
+          "description": "14.5",
+          "enum": [
+            14.5
+          ]
+        },
+        {
+          "description": "15.0",
+          "enum": [
+            15
+          ]
+        },
+        {
+          "description": "15.5",
+          "enum": [
+            15.5
+          ]
+        },
+        {
+          "description": "16.0",
+          "enum": [
+            16
+          ]
+        },
+        {
+          "description": "16.5",
+          "enum": [
+            16.5
+          ]
+        },
+        {
+          "description": "17.0",
+          "enum": [
+            17
+          ]
+        },
+        {
+          "description": "17.5",
+          "enum": [
+            17.5
+          ]
+        },
+        {
+          "description": "18.0",
+          "enum": [
+            18
+          ]
+        },
+        {
+          "description": "18.5",
+          "enum": [
+            18.5
+          ]
+        },
+        {
+          "description": "19.0",
+          "enum": [
+            19
+          ]
+        },
+        {
+          "description": "19.5",
+          "enum": [
+            19.5
+          ]
+        },
+        {
+          "description": "20.0",
+          "enum": [
+            20
+          ]
+        }
+      ],
+      "default": 0
     },
     "rotate_roll": {
       "type": "number",
       "description": "rotate_roll",
       "minimum": -20,
       "maximum": 20,
-      "widget": "range"
+      "widget": "select",
+      "oneOf": [
+        {
+          "description": "-20.0",
+          "enum": [
+            -20
+          ]
+        },
+        {
+          "description": "-19.5",
+          "enum": [
+            -19.5
+          ]
+        },
+        {
+          "description": "-19.0",
+          "enum": [
+            -19
+          ]
+        },
+        {
+          "description": "-18.5",
+          "enum": [
+            -18.5
+          ]
+        },
+        {
+          "description": "-18.0",
+          "enum": [
+            -18
+          ]
+        },
+        {
+          "description": "-17.5",
+          "enum": [
+            -17.5
+          ]
+        },
+        {
+          "description": "-17.0",
+          "enum": [
+            -17
+          ]
+        },
+        {
+          "description": "-16.5",
+          "enum": [
+            -16.5
+          ]
+        },
+        {
+          "description": "-16.0",
+          "enum": [
+            -16
+          ]
+        },
+        {
+          "description": "-15.5",
+          "enum": [
+            -15.5
+          ]
+        },
+        {
+          "description": "-15.0",
+          "enum": [
+            -15
+          ]
+        },
+        {
+          "description": "-14.5",
+          "enum": [
+            -14.5
+          ]
+        },
+        {
+          "description": "-14.0",
+          "enum": [
+            -14
+          ]
+        },
+        {
+          "description": "-13.5",
+          "enum": [
+            -13.5
+          ]
+        },
+        {
+          "description": "-13.0",
+          "enum": [
+            -13
+          ]
+        },
+        {
+          "description": "-12.5",
+          "enum": [
+            -12.5
+          ]
+        },
+        {
+          "description": "-12.0",
+          "enum": [
+            -12
+          ]
+        },
+        {
+          "description": "-11.5",
+          "enum": [
+            -11.5
+          ]
+        },
+        {
+          "description": "-11.0",
+          "enum": [
+            -11
+          ]
+        },
+        {
+          "description": "-10.5",
+          "enum": [
+            -10.5
+          ]
+        },
+        {
+          "description": "-10.0",
+          "enum": [
+            -10
+          ]
+        },
+        {
+          "description": "-9.5",
+          "enum": [
+            -9.5
+          ]
+        },
+        {
+          "description": "-9.0",
+          "enum": [
+            -9
+          ]
+        },
+        {
+          "description": "-8.5",
+          "enum": [
+            -8.5
+          ]
+        },
+        {
+          "description": "-8.0",
+          "enum": [
+            -8
+          ]
+        },
+        {
+          "description": "-7.5",
+          "enum": [
+            -7.5
+          ]
+        },
+        {
+          "description": "-7.0",
+          "enum": [
+            -7
+          ]
+        },
+        {
+          "description": "-6.5",
+          "enum": [
+            -6.5
+          ]
+        },
+        {
+          "description": "-6.0",
+          "enum": [
+            -6
+          ]
+        },
+        {
+          "description": "-5.5",
+          "enum": [
+            -5.5
+          ]
+        },
+        {
+          "description": "-5.0",
+          "enum": [
+            -5
+          ]
+        },
+        {
+          "description": "-4.5",
+          "enum": [
+            -4.5
+          ]
+        },
+        {
+          "description": "-4.0",
+          "enum": [
+            -4
+          ]
+        },
+        {
+          "description": "-3.5",
+          "enum": [
+            -3.5
+          ]
+        },
+        {
+          "description": "-3.0",
+          "enum": [
+            -3
+          ]
+        },
+        {
+          "description": "-2.5",
+          "enum": [
+            -2.5
+          ]
+        },
+        {
+          "description": "-2.0",
+          "enum": [
+            -2
+          ]
+        },
+        {
+          "description": "-1.5",
+          "enum": [
+            -1.5
+          ]
+        },
+        {
+          "description": "-1.0",
+          "enum": [
+            -1
+          ]
+        },
+        {
+          "description": "-0.5",
+          "enum": [
+            -0.5
+          ]
+        },
+        {
+          "description": "0.0",
+          "enum": [
+            0
+          ]
+        },
+        {
+          "description": "0.5",
+          "enum": [
+            0.5
+          ]
+        },
+        {
+          "description": "1.0",
+          "enum": [
+            1
+          ]
+        },
+        {
+          "description": "1.5",
+          "enum": [
+            1.5
+          ]
+        },
+        {
+          "description": "2.0",
+          "enum": [
+            2
+          ]
+        },
+        {
+          "description": "2.5",
+          "enum": [
+            2.5
+          ]
+        },
+        {
+          "description": "3.0",
+          "enum": [
+            3
+          ]
+        },
+        {
+          "description": "3.5",
+          "enum": [
+            3.5
+          ]
+        },
+        {
+          "description": "4.0",
+          "enum": [
+            4
+          ]
+        },
+        {
+          "description": "4.5",
+          "enum": [
+            4.5
+          ]
+        },
+        {
+          "description": "5.0",
+          "enum": [
+            5
+          ]
+        },
+        {
+          "description": "5.5",
+          "enum": [
+            5.5
+          ]
+        },
+        {
+          "description": "6.0",
+          "enum": [
+            6
+          ]
+        },
+        {
+          "description": "6.5",
+          "enum": [
+            6.5
+          ]
+        },
+        {
+          "description": "7.0",
+          "enum": [
+            7
+          ]
+        },
+        {
+          "description": "7.5",
+          "enum": [
+            7.5
+          ]
+        },
+        {
+          "description": "8.0",
+          "enum": [
+            8
+          ]
+        },
+        {
+          "description": "8.5",
+          "enum": [
+            8.5
+          ]
+        },
+        {
+          "description": "9.0",
+          "enum": [
+            9
+          ]
+        },
+        {
+          "description": "9.5",
+          "enum": [
+            9.5
+          ]
+        },
+        {
+          "description": "10.0",
+          "enum": [
+            10
+          ]
+        },
+        {
+          "description": "10.5",
+          "enum": [
+            10.5
+          ]
+        },
+        {
+          "description": "11.0",
+          "enum": [
+            11
+          ]
+        },
+        {
+          "description": "11.5",
+          "enum": [
+            11.5
+          ]
+        },
+        {
+          "description": "12.0",
+          "enum": [
+            12
+          ]
+        },
+        {
+          "description": "12.5",
+          "enum": [
+            12.5
+          ]
+        },
+        {
+          "description": "13.0",
+          "enum": [
+            13
+          ]
+        },
+        {
+          "description": "13.5",
+          "enum": [
+            13.5
+          ]
+        },
+        {
+          "description": "14.0",
+          "enum": [
+            14
+          ]
+        },
+        {
+          "description": "14.5",
+          "enum": [
+            14.5
+          ]
+        },
+        {
+          "description": "15.0",
+          "enum": [
+            15
+          ]
+        },
+        {
+          "description": "15.5",
+          "enum": [
+            15.5
+          ]
+        },
+        {
+          "description": "16.0",
+          "enum": [
+            16
+          ]
+        },
+        {
+          "description": "16.5",
+          "enum": [
+            16.5
+          ]
+        },
+        {
+          "description": "17.0",
+          "enum": [
+            17
+          ]
+        },
+        {
+          "description": "17.5",
+          "enum": [
+            17.5
+          ]
+        },
+        {
+          "description": "18.0",
+          "enum": [
+            18
+          ]
+        },
+        {
+          "description": "18.5",
+          "enum": [
+            18.5
+          ]
+        },
+        {
+          "description": "19.0",
+          "enum": [
+            19
+          ]
+        },
+        {
+          "description": "19.5",
+          "enum": [
+            19.5
+          ]
+        },
+        {
+          "description": "20.0",
+          "enum": [
+            20
+          ]
+        }
+      ],
+      "default": 0
     },
     "blink": {
       "type": "number",
       "description": "blink",
       "minimum": -20,
       "maximum": 5,
-      "widget": "range"
+      "widget": "select",
+      "oneOf": [
+        {
+          "description": "-20.0",
+          "enum": [
+            -20
+          ]
+        },
+        {
+          "description": "-19.5",
+          "enum": [
+            -19.5
+          ]
+        },
+        {
+          "description": "-19.0",
+          "enum": [
+            -19
+          ]
+        },
+        {
+          "description": "-18.5",
+          "enum": [
+            -18.5
+          ]
+        },
+        {
+          "description": "-18.0",
+          "enum": [
+            -18
+          ]
+        },
+        {
+          "description": "-17.5",
+          "enum": [
+            -17.5
+          ]
+        },
+        {
+          "description": "-17.0",
+          "enum": [
+            -17
+          ]
+        },
+        {
+          "description": "-16.5",
+          "enum": [
+            -16.5
+          ]
+        },
+        {
+          "description": "-16.0",
+          "enum": [
+            -16
+          ]
+        },
+        {
+          "description": "-15.5",
+          "enum": [
+            -15.5
+          ]
+        },
+        {
+          "description": "-15.0",
+          "enum": [
+            -15
+          ]
+        },
+        {
+          "description": "-14.5",
+          "enum": [
+            -14.5
+          ]
+        },
+        {
+          "description": "-14.0",
+          "enum": [
+            -14
+          ]
+        },
+        {
+          "description": "-13.5",
+          "enum": [
+            -13.5
+          ]
+        },
+        {
+          "description": "-13.0",
+          "enum": [
+            -13
+          ]
+        },
+        {
+          "description": "-12.5",
+          "enum": [
+            -12.5
+          ]
+        },
+        {
+          "description": "-12.0",
+          "enum": [
+            -12
+          ]
+        },
+        {
+          "description": "-11.5",
+          "enum": [
+            -11.5
+          ]
+        },
+        {
+          "description": "-11.0",
+          "enum": [
+            -11
+          ]
+        },
+        {
+          "description": "-10.5",
+          "enum": [
+            -10.5
+          ]
+        },
+        {
+          "description": "-10.0",
+          "enum": [
+            -10
+          ]
+        },
+        {
+          "description": "-9.5",
+          "enum": [
+            -9.5
+          ]
+        },
+        {
+          "description": "-9.0",
+          "enum": [
+            -9
+          ]
+        },
+        {
+          "description": "-8.5",
+          "enum": [
+            -8.5
+          ]
+        },
+        {
+          "description": "-8.0",
+          "enum": [
+            -8
+          ]
+        },
+        {
+          "description": "-7.5",
+          "enum": [
+            -7.5
+          ]
+        },
+        {
+          "description": "-7.0",
+          "enum": [
+            -7
+          ]
+        },
+        {
+          "description": "-6.5",
+          "enum": [
+            -6.5
+          ]
+        },
+        {
+          "description": "-6.0",
+          "enum": [
+            -6
+          ]
+        },
+        {
+          "description": "-5.5",
+          "enum": [
+            -5.5
+          ]
+        },
+        {
+          "description": "-5.0",
+          "enum": [
+            -5
+          ]
+        },
+        {
+          "description": "-4.5",
+          "enum": [
+            -4.5
+          ]
+        },
+        {
+          "description": "-4.0",
+          "enum": [
+            -4
+          ]
+        },
+        {
+          "description": "-3.5",
+          "enum": [
+            -3.5
+          ]
+        },
+        {
+          "description": "-3.0",
+          "enum": [
+            -3
+          ]
+        },
+        {
+          "description": "-2.5",
+          "enum": [
+            -2.5
+          ]
+        },
+        {
+          "description": "-2.0",
+          "enum": [
+            -2
+          ]
+        },
+        {
+          "description": "-1.5",
+          "enum": [
+            -1.5
+          ]
+        },
+        {
+          "description": "-1.0",
+          "enum": [
+            -1
+          ]
+        },
+        {
+          "description": "-0.5",
+          "enum": [
+            -0.5
+          ]
+        },
+        {
+          "description": "0.0",
+          "enum": [
+            0
+          ]
+        },
+        {
+          "description": "0.5",
+          "enum": [
+            0.5
+          ]
+        },
+        {
+          "description": "1.0",
+          "enum": [
+            1
+          ]
+        },
+        {
+          "description": "1.5",
+          "enum": [
+            1.5
+          ]
+        },
+        {
+          "description": "2.0",
+          "enum": [
+            2
+          ]
+        },
+        {
+          "description": "2.5",
+          "enum": [
+            2.5
+          ]
+        },
+        {
+          "description": "3.0",
+          "enum": [
+            3
+          ]
+        },
+        {
+          "description": "3.5",
+          "enum": [
+            3.5
+          ]
+        },
+        {
+          "description": "4.0",
+          "enum": [
+            4
+          ]
+        },
+        {
+          "description": "4.5",
+          "enum": [
+            4.5
+          ]
+        },
+        {
+          "description": "5.0",
+          "enum": [
+            5
+          ]
+        }
+      ],
+      "default": 0
     },
     "eyebrow": {
       "type": "number",
       "description": "eyebrow",
       "minimum": -10,
       "maximum": 15,
-      "widget": "range"
+      "widget": "select",
+      "oneOf": [
+        {
+          "description": "-10.0",
+          "enum": [
+            -10
+          ]
+        },
+        {
+          "description": "-9.5",
+          "enum": [
+            -9.5
+          ]
+        },
+        {
+          "description": "-9.0",
+          "enum": [
+            -9
+          ]
+        },
+        {
+          "description": "-8.5",
+          "enum": [
+            -8.5
+          ]
+        },
+        {
+          "description": "-8.0",
+          "enum": [
+            -8
+          ]
+        },
+        {
+          "description": "-7.5",
+          "enum": [
+            -7.5
+          ]
+        },
+        {
+          "description": "-7.0",
+          "enum": [
+            -7
+          ]
+        },
+        {
+          "description": "-6.5",
+          "enum": [
+            -6.5
+          ]
+        },
+        {
+          "description": "-6.0",
+          "enum": [
+            -6
+          ]
+        },
+        {
+          "description": "-5.5",
+          "enum": [
+            -5.5
+          ]
+        },
+        {
+          "description": "-5.0",
+          "enum": [
+            -5
+          ]
+        },
+        {
+          "description": "-4.5",
+          "enum": [
+            -4.5
+          ]
+        },
+        {
+          "description": "-4.0",
+          "enum": [
+            -4
+          ]
+        },
+        {
+          "description": "-3.5",
+          "enum": [
+            -3.5
+          ]
+        },
+        {
+          "description": "-3.0",
+          "enum": [
+            -3
+          ]
+        },
+        {
+          "description": "-2.5",
+          "enum": [
+            -2.5
+          ]
+        },
+        {
+          "description": "-2.0",
+          "enum": [
+            -2
+          ]
+        },
+        {
+          "description": "-1.5",
+          "enum": [
+            -1.5
+          ]
+        },
+        {
+          "description": "-1.0",
+          "enum": [
+            -1
+          ]
+        },
+        {
+          "description": "-0.5",
+          "enum": [
+            -0.5
+          ]
+        },
+        {
+          "description": "0.0",
+          "enum": [
+            0
+          ]
+        },
+        {
+          "description": "0.5",
+          "enum": [
+            0.5
+          ]
+        },
+        {
+          "description": "1.0",
+          "enum": [
+            1
+          ]
+        },
+        {
+          "description": "1.5",
+          "enum": [
+            1.5
+          ]
+        },
+        {
+          "description": "2.0",
+          "enum": [
+            2
+          ]
+        },
+        {
+          "description": "2.5",
+          "enum": [
+            2.5
+          ]
+        },
+        {
+          "description": "3.0",
+          "enum": [
+            3
+          ]
+        },
+        {
+          "description": "3.5",
+          "enum": [
+            3.5
+          ]
+        },
+        {
+          "description": "4.0",
+          "enum": [
+            4
+          ]
+        },
+        {
+          "description": "4.5",
+          "enum": [
+            4.5
+          ]
+        },
+        {
+          "description": "5.0",
+          "enum": [
+            5
+          ]
+        },
+        {
+          "description": "5.5",
+          "enum": [
+            5.5
+          ]
+        },
+        {
+          "description": "6.0",
+          "enum": [
+            6
+          ]
+        },
+        {
+          "description": "6.5",
+          "enum": [
+            6.5
+          ]
+        },
+        {
+          "description": "7.0",
+          "enum": [
+            7
+          ]
+        },
+        {
+          "description": "7.5",
+          "enum": [
+            7.5
+          ]
+        },
+        {
+          "description": "8.0",
+          "enum": [
+            8
+          ]
+        },
+        {
+          "description": "8.5",
+          "enum": [
+            8.5
+          ]
+        },
+        {
+          "description": "9.0",
+          "enum": [
+            9
+          ]
+        },
+        {
+          "description": "9.5",
+          "enum": [
+            9.5
+          ]
+        },
+        {
+          "description": "10.0",
+          "enum": [
+            10
+          ]
+        },
+        {
+          "description": "10.5",
+          "enum": [
+            10.5
+          ]
+        },
+        {
+          "description": "11.0",
+          "enum": [
+            11
+          ]
+        },
+        {
+          "description": "11.5",
+          "enum": [
+            11.5
+          ]
+        },
+        {
+          "description": "12.0",
+          "enum": [
+            12
+          ]
+        },
+        {
+          "description": "12.5",
+          "enum": [
+            12.5
+          ]
+        },
+        {
+          "description": "13.0",
+          "enum": [
+            13
+          ]
+        },
+        {
+          "description": "13.5",
+          "enum": [
+            13.5
+          ]
+        },
+        {
+          "description": "14.0",
+          "enum": [
+            14
+          ]
+        },
+        {
+          "description": "14.5",
+          "enum": [
+            14.5
+          ]
+        },
+        {
+          "description": "15.0",
+          "enum": [
+            15
+          ]
+        }
+      ],
+      "default": 0
     },
     "wink": {
       "type": "number",
       "description": "wink",
       "minimum": 0,
       "maximum": 25,
-      "widget": "range"
+      "widget": "select",
+      "oneOf": [
+        {
+          "description": "0.0",
+          "enum": [
+            0
+          ]
+        },
+        {
+          "description": "0.5",
+          "enum": [
+            0.5
+          ]
+        },
+        {
+          "description": "1.0",
+          "enum": [
+            1
+          ]
+        },
+        {
+          "description": "1.5",
+          "enum": [
+            1.5
+          ]
+        },
+        {
+          "description": "2.0",
+          "enum": [
+            2
+          ]
+        },
+        {
+          "description": "2.5",
+          "enum": [
+            2.5
+          ]
+        },
+        {
+          "description": "3.0",
+          "enum": [
+            3
+          ]
+        },
+        {
+          "description": "3.5",
+          "enum": [
+            3.5
+          ]
+        },
+        {
+          "description": "4.0",
+          "enum": [
+            4
+          ]
+        },
+        {
+          "description": "4.5",
+          "enum": [
+            4.5
+          ]
+        },
+        {
+          "description": "5.0",
+          "enum": [
+            5
+          ]
+        },
+        {
+          "description": "5.5",
+          "enum": [
+            5.5
+          ]
+        },
+        {
+          "description": "6.0",
+          "enum": [
+            6
+          ]
+        },
+        {
+          "description": "6.5",
+          "enum": [
+            6.5
+          ]
+        },
+        {
+          "description": "7.0",
+          "enum": [
+            7
+          ]
+        },
+        {
+          "description": "7.5",
+          "enum": [
+            7.5
+          ]
+        },
+        {
+          "description": "8.0",
+          "enum": [
+            8
+          ]
+        },
+        {
+          "description": "8.5",
+          "enum": [
+            8.5
+          ]
+        },
+        {
+          "description": "9.0",
+          "enum": [
+            9
+          ]
+        },
+        {
+          "description": "9.5",
+          "enum": [
+            9.5
+          ]
+        },
+        {
+          "description": "10.0",
+          "enum": [
+            10
+          ]
+        },
+        {
+          "description": "10.5",
+          "enum": [
+            10.5
+          ]
+        },
+        {
+          "description": "11.0",
+          "enum": [
+            11
+          ]
+        },
+        {
+          "description": "11.5",
+          "enum": [
+            11.5
+          ]
+        },
+        {
+          "description": "12.0",
+          "enum": [
+            12
+          ]
+        },
+        {
+          "description": "12.5",
+          "enum": [
+            12.5
+          ]
+        },
+        {
+          "description": "13.0",
+          "enum": [
+            13
+          ]
+        },
+        {
+          "description": "13.5",
+          "enum": [
+            13.5
+          ]
+        },
+        {
+          "description": "14.0",
+          "enum": [
+            14
+          ]
+        },
+        {
+          "description": "14.5",
+          "enum": [
+            14.5
+          ]
+        },
+        {
+          "description": "15.0",
+          "enum": [
+            15
+          ]
+        },
+        {
+          "description": "15.5",
+          "enum": [
+            15.5
+          ]
+        },
+        {
+          "description": "16.0",
+          "enum": [
+            16
+          ]
+        },
+        {
+          "description": "16.5",
+          "enum": [
+            16.5
+          ]
+        },
+        {
+          "description": "17.0",
+          "enum": [
+            17
+          ]
+        },
+        {
+          "description": "17.5",
+          "enum": [
+            17.5
+          ]
+        },
+        {
+          "description": "18.0",
+          "enum": [
+            18
+          ]
+        },
+        {
+          "description": "18.5",
+          "enum": [
+            18.5
+          ]
+        },
+        {
+          "description": "19.0",
+          "enum": [
+            19
+          ]
+        },
+        {
+          "description": "19.5",
+          "enum": [
+            19.5
+          ]
+        },
+        {
+          "description": "20.0",
+          "enum": [
+            20
+          ]
+        },
+        {
+          "description": "20.5",
+          "enum": [
+            20.5
+          ]
+        },
+        {
+          "description": "21.0",
+          "enum": [
+            21
+          ]
+        },
+        {
+          "description": "21.5",
+          "enum": [
+            21.5
+          ]
+        },
+        {
+          "description": "22.0",
+          "enum": [
+            22
+          ]
+        },
+        {
+          "description": "22.5",
+          "enum": [
+            22.5
+          ]
+        },
+        {
+          "description": "23.0",
+          "enum": [
+            23
+          ]
+        },
+        {
+          "description": "23.5",
+          "enum": [
+            23.5
+          ]
+        },
+        {
+          "description": "24.0",
+          "enum": [
+            24
+          ]
+        },
+        {
+          "description": "24.5",
+          "enum": [
+            24.5
+          ]
+        },
+        {
+          "description": "25.0",
+          "enum": [
+            25
+          ]
+        }
+      ],
+      "default": 0
     },
     "pupil_x": {
       "type": "number",
       "description": "pupil_x",
       "minimum": -15,
       "maximum": 15,
-      "widget": "range"
+      "widget": "select",
+      "oneOf": [
+        {
+          "description": "-15.0",
+          "enum": [
+            -15
+          ]
+        },
+        {
+          "description": "-14.5",
+          "enum": [
+            -14.5
+          ]
+        },
+        {
+          "description": "-14.0",
+          "enum": [
+            -14
+          ]
+        },
+        {
+          "description": "-13.5",
+          "enum": [
+            -13.5
+          ]
+        },
+        {
+          "description": "-13.0",
+          "enum": [
+            -13
+          ]
+        },
+        {
+          "description": "-12.5",
+          "enum": [
+            -12.5
+          ]
+        },
+        {
+          "description": "-12.0",
+          "enum": [
+            -12
+          ]
+        },
+        {
+          "description": "-11.5",
+          "enum": [
+            -11.5
+          ]
+        },
+        {
+          "description": "-11.0",
+          "enum": [
+            -11
+          ]
+        },
+        {
+          "description": "-10.5",
+          "enum": [
+            -10.5
+          ]
+        },
+        {
+          "description": "-10.0",
+          "enum": [
+            -10
+          ]
+        },
+        {
+          "description": "-9.5",
+          "enum": [
+            -9.5
+          ]
+        },
+        {
+          "description": "-9.0",
+          "enum": [
+            -9
+          ]
+        },
+        {
+          "description": "-8.5",
+          "enum": [
+            -8.5
+          ]
+        },
+        {
+          "description": "-8.0",
+          "enum": [
+            -8
+          ]
+        },
+        {
+          "description": "-7.5",
+          "enum": [
+            -7.5
+          ]
+        },
+        {
+          "description": "-7.0",
+          "enum": [
+            -7
+          ]
+        },
+        {
+          "description": "-6.5",
+          "enum": [
+            -6.5
+          ]
+        },
+        {
+          "description": "-6.0",
+          "enum": [
+            -6
+          ]
+        },
+        {
+          "description": "-5.5",
+          "enum": [
+            -5.5
+          ]
+        },
+        {
+          "description": "-5.0",
+          "enum": [
+            -5
+          ]
+        },
+        {
+          "description": "-4.5",
+          "enum": [
+            -4.5
+          ]
+        },
+        {
+          "description": "-4.0",
+          "enum": [
+            -4
+          ]
+        },
+        {
+          "description": "-3.5",
+          "enum": [
+            -3.5
+          ]
+        },
+        {
+          "description": "-3.0",
+          "enum": [
+            -3
+          ]
+        },
+        {
+          "description": "-2.5",
+          "enum": [
+            -2.5
+          ]
+        },
+        {
+          "description": "-2.0",
+          "enum": [
+            -2
+          ]
+        },
+        {
+          "description": "-1.5",
+          "enum": [
+            -1.5
+          ]
+        },
+        {
+          "description": "-1.0",
+          "enum": [
+            -1
+          ]
+        },
+        {
+          "description": "-0.5",
+          "enum": [
+            -0.5
+          ]
+        },
+        {
+          "description": "0.0",
+          "enum": [
+            0
+          ]
+        },
+        {
+          "description": "0.5",
+          "enum": [
+            0.5
+          ]
+        },
+        {
+          "description": "1.0",
+          "enum": [
+            1
+          ]
+        },
+        {
+          "description": "1.5",
+          "enum": [
+            1.5
+          ]
+        },
+        {
+          "description": "2.0",
+          "enum": [
+            2
+          ]
+        },
+        {
+          "description": "2.5",
+          "enum": [
+            2.5
+          ]
+        },
+        {
+          "description": "3.0",
+          "enum": [
+            3
+          ]
+        },
+        {
+          "description": "3.5",
+          "enum": [
+            3.5
+          ]
+        },
+        {
+          "description": "4.0",
+          "enum": [
+            4
+          ]
+        },
+        {
+          "description": "4.5",
+          "enum": [
+            4.5
+          ]
+        },
+        {
+          "description": "5.0",
+          "enum": [
+            5
+          ]
+        },
+        {
+          "description": "5.5",
+          "enum": [
+            5.5
+          ]
+        },
+        {
+          "description": "6.0",
+          "enum": [
+            6
+          ]
+        },
+        {
+          "description": "6.5",
+          "enum": [
+            6.5
+          ]
+        },
+        {
+          "description": "7.0",
+          "enum": [
+            7
+          ]
+        },
+        {
+          "description": "7.5",
+          "enum": [
+            7.5
+          ]
+        },
+        {
+          "description": "8.0",
+          "enum": [
+            8
+          ]
+        },
+        {
+          "description": "8.5",
+          "enum": [
+            8.5
+          ]
+        },
+        {
+          "description": "9.0",
+          "enum": [
+            9
+          ]
+        },
+        {
+          "description": "9.5",
+          "enum": [
+            9.5
+          ]
+        },
+        {
+          "description": "10.0",
+          "enum": [
+            10
+          ]
+        },
+        {
+          "description": "10.5",
+          "enum": [
+            10.5
+          ]
+        },
+        {
+          "description": "11.0",
+          "enum": [
+            11
+          ]
+        },
+        {
+          "description": "11.5",
+          "enum": [
+            11.5
+          ]
+        },
+        {
+          "description": "12.0",
+          "enum": [
+            12
+          ]
+        },
+        {
+          "description": "12.5",
+          "enum": [
+            12.5
+          ]
+        },
+        {
+          "description": "13.0",
+          "enum": [
+            13
+          ]
+        },
+        {
+          "description": "13.5",
+          "enum": [
+            13.5
+          ]
+        },
+        {
+          "description": "14.0",
+          "enum": [
+            14
+          ]
+        },
+        {
+          "description": "14.5",
+          "enum": [
+            14.5
+          ]
+        },
+        {
+          "description": "15.0",
+          "enum": [
+            15
+          ]
+        }
+      ],
+      "default": 0
     },
     "pupil_y": {
       "type": "number",
       "description": "pupil_y",
       "minimum": -15,
       "maximum": 15,
-      "widget": "range"
+      "widget": "select",
+      "oneOf": [
+        {
+          "description": "-15.0",
+          "enum": [
+            -15
+          ]
+        },
+        {
+          "description": "-14.5",
+          "enum": [
+            -14.5
+          ]
+        },
+        {
+          "description": "-14.0",
+          "enum": [
+            -14
+          ]
+        },
+        {
+          "description": "-13.5",
+          "enum": [
+            -13.5
+          ]
+        },
+        {
+          "description": "-13.0",
+          "enum": [
+            -13
+          ]
+        },
+        {
+          "description": "-12.5",
+          "enum": [
+            -12.5
+          ]
+        },
+        {
+          "description": "-12.0",
+          "enum": [
+            -12
+          ]
+        },
+        {
+          "description": "-11.5",
+          "enum": [
+            -11.5
+          ]
+        },
+        {
+          "description": "-11.0",
+          "enum": [
+            -11
+          ]
+        },
+        {
+          "description": "-10.5",
+          "enum": [
+            -10.5
+          ]
+        },
+        {
+          "description": "-10.0",
+          "enum": [
+            -10
+          ]
+        },
+        {
+          "description": "-9.5",
+          "enum": [
+            -9.5
+          ]
+        },
+        {
+          "description": "-9.0",
+          "enum": [
+            -9
+          ]
+        },
+        {
+          "description": "-8.5",
+          "enum": [
+            -8.5
+          ]
+        },
+        {
+          "description": "-8.0",
+          "enum": [
+            -8
+          ]
+        },
+        {
+          "description": "-7.5",
+          "enum": [
+            -7.5
+          ]
+        },
+        {
+          "description": "-7.0",
+          "enum": [
+            -7
+          ]
+        },
+        {
+          "description": "-6.5",
+          "enum": [
+            -6.5
+          ]
+        },
+        {
+          "description": "-6.0",
+          "enum": [
+            -6
+          ]
+        },
+        {
+          "description": "-5.5",
+          "enum": [
+            -5.5
+          ]
+        },
+        {
+          "description": "-5.0",
+          "enum": [
+            -5
+          ]
+        },
+        {
+          "description": "-4.5",
+          "enum": [
+            -4.5
+          ]
+        },
+        {
+          "description": "-4.0",
+          "enum": [
+            -4
+          ]
+        },
+        {
+          "description": "-3.5",
+          "enum": [
+            -3.5
+          ]
+        },
+        {
+          "description": "-3.0",
+          "enum": [
+            -3
+          ]
+        },
+        {
+          "description": "-2.5",
+          "enum": [
+            -2.5
+          ]
+        },
+        {
+          "description": "-2.0",
+          "enum": [
+            -2
+          ]
+        },
+        {
+          "description": "-1.5",
+          "enum": [
+            -1.5
+          ]
+        },
+        {
+          "description": "-1.0",
+          "enum": [
+            -1
+          ]
+        },
+        {
+          "description": "-0.5",
+          "enum": [
+            -0.5
+          ]
+        },
+        {
+          "description": "0.0",
+          "enum": [
+            0
+          ]
+        },
+        {
+          "description": "0.5",
+          "enum": [
+            0.5
+          ]
+        },
+        {
+          "description": "1.0",
+          "enum": [
+            1
+          ]
+        },
+        {
+          "description": "1.5",
+          "enum": [
+            1.5
+          ]
+        },
+        {
+          "description": "2.0",
+          "enum": [
+            2
+          ]
+        },
+        {
+          "description": "2.5",
+          "enum": [
+            2.5
+          ]
+        },
+        {
+          "description": "3.0",
+          "enum": [
+            3
+          ]
+        },
+        {
+          "description": "3.5",
+          "enum": [
+            3.5
+          ]
+        },
+        {
+          "description": "4.0",
+          "enum": [
+            4
+          ]
+        },
+        {
+          "description": "4.5",
+          "enum": [
+            4.5
+          ]
+        },
+        {
+          "description": "5.0",
+          "enum": [
+            5
+          ]
+        },
+        {
+          "description": "5.5",
+          "enum": [
+            5.5
+          ]
+        },
+        {
+          "description": "6.0",
+          "enum": [
+            6
+          ]
+        },
+        {
+          "description": "6.5",
+          "enum": [
+            6.5
+          ]
+        },
+        {
+          "description": "7.0",
+          "enum": [
+            7
+          ]
+        },
+        {
+          "description": "7.5",
+          "enum": [
+            7.5
+          ]
+        },
+        {
+          "description": "8.0",
+          "enum": [
+            8
+          ]
+        },
+        {
+          "description": "8.5",
+          "enum": [
+            8.5
+          ]
+        },
+        {
+          "description": "9.0",
+          "enum": [
+            9
+          ]
+        },
+        {
+          "description": "9.5",
+          "enum": [
+            9.5
+          ]
+        },
+        {
+          "description": "10.0",
+          "enum": [
+            10
+          ]
+        },
+        {
+          "description": "10.5",
+          "enum": [
+            10.5
+          ]
+        },
+        {
+          "description": "11.0",
+          "enum": [
+            11
+          ]
+        },
+        {
+          "description": "11.5",
+          "enum": [
+            11.5
+          ]
+        },
+        {
+          "description": "12.0",
+          "enum": [
+            12
+          ]
+        },
+        {
+          "description": "12.5",
+          "enum": [
+            12.5
+          ]
+        },
+        {
+          "description": "13.0",
+          "enum": [
+            13
+          ]
+        },
+        {
+          "description": "13.5",
+          "enum": [
+            13.5
+          ]
+        },
+        {
+          "description": "14.0",
+          "enum": [
+            14
+          ]
+        },
+        {
+          "description": "14.5",
+          "enum": [
+            14.5
+          ]
+        },
+        {
+          "description": "15.0",
+          "enum": [
+            15
+          ]
+        }
+      ],
+      "default": 0
     },
     "aaa": {
       "type": "number",
@@ -95,21 +3227,984 @@
       "description": "eee",
       "minimum": -20,
       "maximum": 15,
-      "widget": "range"
+      "widget": "select",
+      "oneOf": [
+        {
+          "description": "-20.0",
+          "enum": [
+            -20
+          ]
+        },
+        {
+          "description": "-19.5",
+          "enum": [
+            -19.5
+          ]
+        },
+        {
+          "description": "-19.0",
+          "enum": [
+            -19
+          ]
+        },
+        {
+          "description": "-18.5",
+          "enum": [
+            -18.5
+          ]
+        },
+        {
+          "description": "-18.0",
+          "enum": [
+            -18
+          ]
+        },
+        {
+          "description": "-17.5",
+          "enum": [
+            -17.5
+          ]
+        },
+        {
+          "description": "-17.0",
+          "enum": [
+            -17
+          ]
+        },
+        {
+          "description": "-16.5",
+          "enum": [
+            -16.5
+          ]
+        },
+        {
+          "description": "-16.0",
+          "enum": [
+            -16
+          ]
+        },
+        {
+          "description": "-15.5",
+          "enum": [
+            -15.5
+          ]
+        },
+        {
+          "description": "-15.0",
+          "enum": [
+            -15
+          ]
+        },
+        {
+          "description": "-14.5",
+          "enum": [
+            -14.5
+          ]
+        },
+        {
+          "description": "-14.0",
+          "enum": [
+            -14
+          ]
+        },
+        {
+          "description": "-13.5",
+          "enum": [
+            -13.5
+          ]
+        },
+        {
+          "description": "-13.0",
+          "enum": [
+            -13
+          ]
+        },
+        {
+          "description": "-12.5",
+          "enum": [
+            -12.5
+          ]
+        },
+        {
+          "description": "-12.0",
+          "enum": [
+            -12
+          ]
+        },
+        {
+          "description": "-11.5",
+          "enum": [
+            -11.5
+          ]
+        },
+        {
+          "description": "-11.0",
+          "enum": [
+            -11
+          ]
+        },
+        {
+          "description": "-10.5",
+          "enum": [
+            -10.5
+          ]
+        },
+        {
+          "description": "-10.0",
+          "enum": [
+            -10
+          ]
+        },
+        {
+          "description": "-9.5",
+          "enum": [
+            -9.5
+          ]
+        },
+        {
+          "description": "-9.0",
+          "enum": [
+            -9
+          ]
+        },
+        {
+          "description": "-8.5",
+          "enum": [
+            -8.5
+          ]
+        },
+        {
+          "description": "-8.0",
+          "enum": [
+            -8
+          ]
+        },
+        {
+          "description": "-7.5",
+          "enum": [
+            -7.5
+          ]
+        },
+        {
+          "description": "-7.0",
+          "enum": [
+            -7
+          ]
+        },
+        {
+          "description": "-6.5",
+          "enum": [
+            -6.5
+          ]
+        },
+        {
+          "description": "-6.0",
+          "enum": [
+            -6
+          ]
+        },
+        {
+          "description": "-5.5",
+          "enum": [
+            -5.5
+          ]
+        },
+        {
+          "description": "-5.0",
+          "enum": [
+            -5
+          ]
+        },
+        {
+          "description": "-4.5",
+          "enum": [
+            -4.5
+          ]
+        },
+        {
+          "description": "-4.0",
+          "enum": [
+            -4
+          ]
+        },
+        {
+          "description": "-3.5",
+          "enum": [
+            -3.5
+          ]
+        },
+        {
+          "description": "-3.0",
+          "enum": [
+            -3
+          ]
+        },
+        {
+          "description": "-2.5",
+          "enum": [
+            -2.5
+          ]
+        },
+        {
+          "description": "-2.0",
+          "enum": [
+            -2
+          ]
+        },
+        {
+          "description": "-1.5",
+          "enum": [
+            -1.5
+          ]
+        },
+        {
+          "description": "-1.0",
+          "enum": [
+            -1
+          ]
+        },
+        {
+          "description": "-0.5",
+          "enum": [
+            -0.5
+          ]
+        },
+        {
+          "description": "0.0",
+          "enum": [
+            0
+          ]
+        },
+        {
+          "description": "0.5",
+          "enum": [
+            0.5
+          ]
+        },
+        {
+          "description": "1.0",
+          "enum": [
+            1
+          ]
+        },
+        {
+          "description": "1.5",
+          "enum": [
+            1.5
+          ]
+        },
+        {
+          "description": "2.0",
+          "enum": [
+            2
+          ]
+        },
+        {
+          "description": "2.5",
+          "enum": [
+            2.5
+          ]
+        },
+        {
+          "description": "3.0",
+          "enum": [
+            3
+          ]
+        },
+        {
+          "description": "3.5",
+          "enum": [
+            3.5
+          ]
+        },
+        {
+          "description": "4.0",
+          "enum": [
+            4
+          ]
+        },
+        {
+          "description": "4.5",
+          "enum": [
+            4.5
+          ]
+        },
+        {
+          "description": "5.0",
+          "enum": [
+            5
+          ]
+        },
+        {
+          "description": "5.5",
+          "enum": [
+            5.5
+          ]
+        },
+        {
+          "description": "6.0",
+          "enum": [
+            6
+          ]
+        },
+        {
+          "description": "6.5",
+          "enum": [
+            6.5
+          ]
+        },
+        {
+          "description": "7.0",
+          "enum": [
+            7
+          ]
+        },
+        {
+          "description": "7.5",
+          "enum": [
+            7.5
+          ]
+        },
+        {
+          "description": "8.0",
+          "enum": [
+            8
+          ]
+        },
+        {
+          "description": "8.5",
+          "enum": [
+            8.5
+          ]
+        },
+        {
+          "description": "9.0",
+          "enum": [
+            9
+          ]
+        },
+        {
+          "description": "9.5",
+          "enum": [
+            9.5
+          ]
+        },
+        {
+          "description": "10.0",
+          "enum": [
+            10
+          ]
+        },
+        {
+          "description": "10.5",
+          "enum": [
+            10.5
+          ]
+        },
+        {
+          "description": "11.0",
+          "enum": [
+            11
+          ]
+        },
+        {
+          "description": "11.5",
+          "enum": [
+            11.5
+          ]
+        },
+        {
+          "description": "12.0",
+          "enum": [
+            12
+          ]
+        },
+        {
+          "description": "12.5",
+          "enum": [
+            12.5
+          ]
+        },
+        {
+          "description": "13.0",
+          "enum": [
+            13
+          ]
+        },
+        {
+          "description": "13.5",
+          "enum": [
+            13.5
+          ]
+        },
+        {
+          "description": "14.0",
+          "enum": [
+            14
+          ]
+        },
+        {
+          "description": "14.5",
+          "enum": [
+            14.5
+          ]
+        },
+        {
+          "description": "15.0",
+          "enum": [
+            15
+          ]
+        }
+      ],
+      "default": 0
     },
     "woo": {
       "type": "number",
       "description": "woo",
       "minimum": -20,
       "maximum": 15,
-      "widget": "range"
+      "widget": "select",
+      "oneOf": [
+        {
+          "description": "-20.0",
+          "enum": [
+            -20
+          ]
+        },
+        {
+          "description": "-19.5",
+          "enum": [
+            -19.5
+          ]
+        },
+        {
+          "description": "-19.0",
+          "enum": [
+            -19
+          ]
+        },
+        {
+          "description": "-18.5",
+          "enum": [
+            -18.5
+          ]
+        },
+        {
+          "description": "-18.0",
+          "enum": [
+            -18
+          ]
+        },
+        {
+          "description": "-17.5",
+          "enum": [
+            -17.5
+          ]
+        },
+        {
+          "description": "-17.0",
+          "enum": [
+            -17
+          ]
+        },
+        {
+          "description": "-16.5",
+          "enum": [
+            -16.5
+          ]
+        },
+        {
+          "description": "-16.0",
+          "enum": [
+            -16
+          ]
+        },
+        {
+          "description": "-15.5",
+          "enum": [
+            -15.5
+          ]
+        },
+        {
+          "description": "-15.0",
+          "enum": [
+            -15
+          ]
+        },
+        {
+          "description": "-14.5",
+          "enum": [
+            -14.5
+          ]
+        },
+        {
+          "description": "-14.0",
+          "enum": [
+            -14
+          ]
+        },
+        {
+          "description": "-13.5",
+          "enum": [
+            -13.5
+          ]
+        },
+        {
+          "description": "-13.0",
+          "enum": [
+            -13
+          ]
+        },
+        {
+          "description": "-12.5",
+          "enum": [
+            -12.5
+          ]
+        },
+        {
+          "description": "-12.0",
+          "enum": [
+            -12
+          ]
+        },
+        {
+          "description": "-11.5",
+          "enum": [
+            -11.5
+          ]
+        },
+        {
+          "description": "-11.0",
+          "enum": [
+            -11
+          ]
+        },
+        {
+          "description": "-10.5",
+          "enum": [
+            -10.5
+          ]
+        },
+        {
+          "description": "-10.0",
+          "enum": [
+            -10
+          ]
+        },
+        {
+          "description": "-9.5",
+          "enum": [
+            -9.5
+          ]
+        },
+        {
+          "description": "-9.0",
+          "enum": [
+            -9
+          ]
+        },
+        {
+          "description": "-8.5",
+          "enum": [
+            -8.5
+          ]
+        },
+        {
+          "description": "-8.0",
+          "enum": [
+            -8
+          ]
+        },
+        {
+          "description": "-7.5",
+          "enum": [
+            -7.5
+          ]
+        },
+        {
+          "description": "-7.0",
+          "enum": [
+            -7
+          ]
+        },
+        {
+          "description": "-6.5",
+          "enum": [
+            -6.5
+          ]
+        },
+        {
+          "description": "-6.0",
+          "enum": [
+            -6
+          ]
+        },
+        {
+          "description": "-5.5",
+          "enum": [
+            -5.5
+          ]
+        },
+        {
+          "description": "-5.0",
+          "enum": [
+            -5
+          ]
+        },
+        {
+          "description": "-4.5",
+          "enum": [
+            -4.5
+          ]
+        },
+        {
+          "description": "-4.0",
+          "enum": [
+            -4
+          ]
+        },
+        {
+          "description": "-3.5",
+          "enum": [
+            -3.5
+          ]
+        },
+        {
+          "description": "-3.0",
+          "enum": [
+            -3
+          ]
+        },
+        {
+          "description": "-2.5",
+          "enum": [
+            -2.5
+          ]
+        },
+        {
+          "description": "-2.0",
+          "enum": [
+            -2
+          ]
+        },
+        {
+          "description": "-1.5",
+          "enum": [
+            -1.5
+          ]
+        },
+        {
+          "description": "-1.0",
+          "enum": [
+            -1
+          ]
+        },
+        {
+          "description": "-0.5",
+          "enum": [
+            -0.5
+          ]
+        },
+        {
+          "description": "0.0",
+          "enum": [
+            0
+          ]
+        },
+        {
+          "description": "0.5",
+          "enum": [
+            0.5
+          ]
+        },
+        {
+          "description": "1.0",
+          "enum": [
+            1
+          ]
+        },
+        {
+          "description": "1.5",
+          "enum": [
+            1.5
+          ]
+        },
+        {
+          "description": "2.0",
+          "enum": [
+            2
+          ]
+        },
+        {
+          "description": "2.5",
+          "enum": [
+            2.5
+          ]
+        },
+        {
+          "description": "3.0",
+          "enum": [
+            3
+          ]
+        },
+        {
+          "description": "3.5",
+          "enum": [
+            3.5
+          ]
+        },
+        {
+          "description": "4.0",
+          "enum": [
+            4
+          ]
+        },
+        {
+          "description": "4.5",
+          "enum": [
+            4.5
+          ]
+        },
+        {
+          "description": "5.0",
+          "enum": [
+            5
+          ]
+        },
+        {
+          "description": "5.5",
+          "enum": [
+            5.5
+          ]
+        },
+        {
+          "description": "6.0",
+          "enum": [
+            6
+          ]
+        },
+        {
+          "description": "6.5",
+          "enum": [
+            6.5
+          ]
+        },
+        {
+          "description": "7.0",
+          "enum": [
+            7
+          ]
+        },
+        {
+          "description": "7.5",
+          "enum": [
+            7.5
+          ]
+        },
+        {
+          "description": "8.0",
+          "enum": [
+            8
+          ]
+        },
+        {
+          "description": "8.5",
+          "enum": [
+            8.5
+          ]
+        },
+        {
+          "description": "9.0",
+          "enum": [
+            9
+          ]
+        },
+        {
+          "description": "9.5",
+          "enum": [
+            9.5
+          ]
+        },
+        {
+          "description": "10.0",
+          "enum": [
+            10
+          ]
+        },
+        {
+          "description": "10.5",
+          "enum": [
+            10.5
+          ]
+        },
+        {
+          "description": "11.0",
+          "enum": [
+            11
+          ]
+        },
+        {
+          "description": "11.5",
+          "enum": [
+            11.5
+          ]
+        },
+        {
+          "description": "12.0",
+          "enum": [
+            12
+          ]
+        },
+        {
+          "description": "12.5",
+          "enum": [
+            12.5
+          ]
+        },
+        {
+          "description": "13.0",
+          "enum": [
+            13
+          ]
+        },
+        {
+          "description": "13.5",
+          "enum": [
+            13.5
+          ]
+        },
+        {
+          "description": "14.0",
+          "enum": [
+            14
+          ]
+        },
+        {
+          "description": "14.5",
+          "enum": [
+            14.5
+          ]
+        },
+        {
+          "description": "15.0",
+          "enum": [
+            15
+          ]
+        }
+      ],
+      "default": 0
     },
     "smile": {
       "type": "number",
       "description": "smile",
       "minimum": -0.3,
       "maximum": 1.3,
-      "widget": "range"
+      "widget": "select",
+      "oneOf": [
+        {
+          "description": "-0.3",
+          "enum": [
+            -0.3
+          ]
+        },
+        {
+          "description": "-0.2",
+          "enum": [
+            -0.2
+          ]
+        },
+        {
+          "description": "-0.1",
+          "enum": [
+            -0.1
+          ]
+        },
+        {
+          "description": "0.0",
+          "enum": [
+            0
+          ]
+        },
+        {
+          "description": "0.1",
+          "enum": [
+            0.1
+          ]
+        },
+        {
+          "description": "0.2",
+          "enum": [
+            0.2
+          ]
+        },
+        {
+          "description": "0.3",
+          "enum": [
+            0.3
+          ]
+        },
+        {
+          "description": "0.4",
+          "enum": [
+            0.4
+          ]
+        },
+        {
+          "description": "0.5",
+          "enum": [
+            0.5
+          ]
+        },
+        {
+          "description": "0.6",
+          "enum": [
+            0.6
+          ]
+        },
+        {
+          "description": "0.7",
+          "enum": [
+            0.7
+          ]
+        },
+        {
+          "description": "0.8",
+          "enum": [
+            0.8
+          ]
+        },
+        {
+          "description": "0.9",
+          "enum": [
+            0.9
+          ]
+        },
+        {
+          "description": "1.0",
+          "enum": [
+            1
+          ]
+        },
+        {
+          "description": "1.1",
+          "enum": [
+            1.1
+          ]
+        },
+        {
+          "description": "1.2",
+          "enum": [
+            1.2
+          ]
+        },
+        {
+          "description": "1.3",
+          "enum": [
+            1.3
+          ]
+        }
+      ],
+      "default": 0
     },
     "src_ratio": {
       "type": "number",
