@@ -1,0 +1,19 @@
+{
+  "input_image_check": "https://files.catbox.moe/f1cpjc.png",
+  "rotate_pitch": 0.0,
+  "rotate_yaw": 0.0,
+  "rotate_roll": 0.0,
+  "blink": 0.0,
+  "eyebrow": 0.0,
+  "wink": 0.0,
+  "pupil_x": 0.0,
+  "pupil_y": 0.0,
+  "aaa": 0.0,
+  "eee": 0.0,
+  "woo": 0.0,
+  "smile": 1.3,
+  "src_ratio": 0.0,
+  "sample_ratio": 0.0,
+  "sample_parts": "OnlyExpression",
+  "crop_factor": 0.0
+}

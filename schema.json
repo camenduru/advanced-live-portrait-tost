@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "LivePortrait: Efficient Portrait Animation with Stitching and Retargeting Control",
+      "author": "Jianzhu Guo, Dingyun Zhang, Xiaoqiang Liu, Zhizhou Zhong, Yuan Zhang, Pengfei Wan, Di Zhang",
+      "page": "https://liveportrait.github.io/",
+      "paper": "https://arxiv.org/abs/2407.03168",
+      "code": "https://github.com/KwaiVGI/LivePortrait",
+      "jupyter": "https://github.com/camenduru/AdvancedLivePortrait-jupyter",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/advanced-live-portrait.ipynb",
+      "tags": [
+        "Image to Image"
+      ],
+      "widget": "readme"
+    },
+    "upload": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "input_image_check"
+    },
+    "input_image_check": {
+      "type": "string",
+      "description": "Input Image URL",
+      "widget": "textarea"
+    },
+    "rotate_pitch": {
+      "type": "number",
+      "description": "rotate_pitch"
+    },
+    "rotate_yaw": {
+      "type": "number",
+      "description": "rotate_yaw"
+    },
+    "rotate_roll": {
+      "type": "number",
+      "description": "rotate_roll"
+    },
+    "blink": {
+      "type": "number",
+      "description": "blink"
+    },
+    "eyebrow": {
+      "type": "number",
+      "description": "eyebrow"
+    },
+    "wink": {
+      "type": "number",
+      "description": "wink"
+    },
+    "pupil_x": {
+      "type": "number",
+      "description": "pupil_x"
+    },
+    "pupil_y": {
+      "type": "number",
+      "description": "pupil_y"
+    },
+    "aaa": {
+      "type": "number",
+      "description": "aaa"
+    },
+    "eee": {
+      "type": "number",
+      "description": "eee"
+    },
+    "woo": {
+      "type": "number",
+      "description": "woo"
+    },
+    "smile": {
+      "type": "number",
+      "description": "smile"
+    },
+    "src_ratio": {
+      "type": "number",
+      "description": "src_ratio"
+    },
+    "sample_ratio": {
+      "type": "number",
+      "description": "sample_ratio"
+    },
+    "crop_factor": {
+      "type": "number",
+      "description": "crop_factor"
+    },
+    "sample_parts": {
+      "type": "string",
+      "description": "sample_parts",
+      "widget": "hidden"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/512x512/282828/eae0d0/?text=input#.png",
+      "image2": "https://fakeimg.pl/512x512/282828/eae0d0/?text=input#.png",
+      "image3": "https://fakeimg.pl/512x512/282828/eae0d0/?text=output#.png",
+      "image4": "https://fakeimg.pl/512x512/282828/eae0d0/?text=input#.png",
+      "widget": "example"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
