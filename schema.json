@@ -4223,7 +4223,78 @@
     "crop_factor": {
       "type": "number",
       "description": "crop_factor",
-      "widget": "hidden"
+      "minimum": -0.3,
+      "maximum": 1.3,
+      "widget": "select",
+      "oneOf": [
+        {
+          "description": "1.0",
+          "enum": [
+            1.0
+          ]
+        },
+        {
+          "description": "1.1",
+          "enum": [
+            1.1
+          ]
+        },
+        {
+          "description": "1.2",
+          "enum": [
+            1.2
+          ]
+        },
+        {
+          "description": "1.3",
+          "enum": [
+            1.3
+          ]
+        },
+        {
+          "description": "1.4",
+          "enum": [
+            1.4
+          ]
+        },
+        {
+          "description": "1.5",
+          "enum": [
+            1.5
+          ]
+        },
+        {
+          "description": "1.6",
+          "enum": [
+            1.6
+          ]
+        },
+        {
+          "description": "1.7",
+          "enum": [
+            1.7
+          ]
+        },
+        {
+          "description": "1.8",
+          "enum": [
+            1.8
+          ]
+        },
+        {
+          "description": "1.9",
+          "enum": [
+            1.9
+          ]
+        },
+        {
+          "description": "2.0",
+          "enum": [
+            2.0
+          ]
+        }
+      ],
+      "default": 1
     },
     "sample_parts": {
       "type": "string",
