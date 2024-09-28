@@ -94,10 +94,10 @@
     },
     "example": {
       "type": "string",
-      "image1": "https://fakeimg.pl/512x512/282828/eae0d0/?text=input#.png",
-      "image2": "https://fakeimg.pl/512x512/282828/eae0d0/?text=input#.png",
-      "image3": "https://fakeimg.pl/512x512/282828/eae0d0/?text=output#.png",
-      "image4": "https://fakeimg.pl/512x512/282828/eae0d0/?text=input#.png",
+      "image1": "https://fakeimg.pl/640x960/282828/eae0d0/?text=input#.png",
+      "image2": "https://files.catbox.moe/f1cpjc.png",
+      "image3": "https://fakeimg.pl/640x960/282828/eae0d0/?text=output#.png",
+      "image4": "https://files.catbox.moe/jglhsp.png",
       "widget": "example"
     }
   },
