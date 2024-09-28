@@ -29,63 +29,106 @@
     },
     "rotate_pitch": {
       "type": "number",
-      "description": "rotate_pitch"
+      "description": "rotate_pitch",
+      "minimum": -20,
+      "maximum": 20,
+      "widget": "range"
     },
     "rotate_yaw": {
       "type": "number",
-      "description": "rotate_yaw"
+      "description": "rotate_yaw",
+      "minimum": -20,
+      "maximum": 20,
+      "widget": "range"
     },
     "rotate_roll": {
       "type": "number",
-      "description": "rotate_roll"
+      "description": "rotate_roll",
+      "minimum": -20,
+      "maximum": 20,
+      "widget": "range"
     },
     "blink": {
       "type": "number",
-      "description": "blink"
+      "description": "blink",
+      "minimum": -20,
+      "maximum": 5,
+      "widget": "range"
     },
     "eyebrow": {
       "type": "number",
-      "description": "eyebrow"
+      "description": "eyebrow",
+      "minimum": -10,
+      "maximum": 15,
+      "widget": "range"
     },
     "wink": {
       "type": "number",
-      "description": "wink"
+      "description": "wink",
+      "minimum": 0,
+      "maximum": 25,
+      "widget": "range"
     },
     "pupil_x": {
       "type": "number",
-      "description": "pupil_x"
+      "description": "pupil_x",
+      "minimum": -15,
+      "maximum": 15,
+      "widget": "range"
     },
     "pupil_y": {
       "type": "number",
-      "description": "pupil_y"
+      "description": "pupil_y",
+      "minimum": -15,
+      "maximum": 15,
+      "widget": "range"
     },
     "aaa": {
       "type": "number",
-      "description": "aaa"
+      "description": "aaa",
+      "minimum": -30,
+      "maximum": 120,
+      "widget": "range"
     },
     "eee": {
       "type": "number",
-      "description": "eee"
+      "description": "eee",
+      "minimum": -20,
+      "maximum": 15,
+      "widget": "range"
     },
     "woo": {
       "type": "number",
-      "description": "woo"
+      "description": "woo",
+      "minimum": -20,
+      "maximum": 15,
+      "widget": "range"
     },
     "smile": {
       "type": "number",
-      "description": "smile"
+      "description": "smile",
+      "minimum": -0.3,
+      "maximum": 1.3,
+      "widget": "range"
     },
     "src_ratio": {
       "type": "number",
-      "description": "src_ratio"
+      "description": "src_ratio",
+      "minimum": 0,
+      "maximum": 1,
+      "widget": "hidden"
     },
     "sample_ratio": {
       "type": "number",
-      "description": "sample_ratio"
+      "description": "sample_ratio",
+      "minimum": -0.2,
+      "maximum": 1.2,
+      "widget": "hidden"
     },
     "crop_factor": {
       "type": "number",
-      "description": "crop_factor"
+      "description": "crop_factor",
+      "widget": "hidden"
     },
     "sample_parts": {
       "type": "string",

@@ -12,8 +12,8 @@
   "eee": 0.0,
   "woo": 0.0,
   "smile": 1.3,
-  "src_ratio": 0.0,
-  "sample_ratio": 0.0,
+  "src_ratio": 1.0,
+  "sample_ratio": 1.0,
   "sample_parts": "OnlyExpression",
   "crop_factor": 1.7
 }
