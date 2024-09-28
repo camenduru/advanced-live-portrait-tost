@@ -15,5 +15,5 @@
   "src_ratio": 0.0,
   "sample_ratio": 0.0,
   "sample_parts": "OnlyExpression",
-  "crop_factor": 0.0
+  "crop_factor": 1.7
 }
